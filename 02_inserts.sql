@@ -1,0 +1,65 @@
+INSERT INTO sistema_loja (nome_cliente, produto, categoria, quantidade, preco_unitario, valor_total, data_venda) VALUES ('Lucas Almeida','Notebook Dell','Eletronico',1,3500.00,3500.00,'2026-01-03');
+INSERT INTO sistema_loja VALUES ('Mariana Costa','Mouse Gamer','Eletronico',2,120.00,240.00,'2026-01-05');
+INSERT INTO sistema_loja VALUES ('João Pedro','Teclado Mecânico','Eletronico',1,450.00,450.00,'2026-01-07');
+INSERT INTO sistema_loja VALUES ('Ana Clara','Geladeira Brastemp','Eletrodomestico',1,2800.00,2800.00,'2026-01-10');
+INSERT INTO sistema_loja VALUES ('Carlos Eduardo','Fogão 4 bocas','Eletrodomestico',1,900.00,900.00,'2026-01-12');
+INSERT INTO sistema_loja VALUES ('Fernanda Lima','Smartphone Samsung','Eletronico',1,2200.00,2200.00,'2026-01-15');
+INSERT INTO sistema_loja VALUES ('Ricardo Souza','Camisa Polo','Vestuário',3,80.00,240.00,'2026-01-18');
+INSERT INTO sistema_loja VALUES ('Patricia Gomes','Calça Jeans','Vestuário',2,150.00,300.00,'2026-01-20');
+INSERT INTO sistema_loja VALUES ('Bruno Martins','TV 50 Polegadas','Eletronico',1,3200.00,3200.00,'2026-01-22');
+INSERT INTO sistema_loja VALUES ('Juliana Rocha','Air Fryer','Eletrodomestico',1,600.00,600.00,'2026-01-25');
+
+INSERT INTO sistema_loja VALUES ('Thiago Alves','Fone Bluetooth','Eletronico',2,200.00,400.00,'2026-02-02');
+INSERT INTO sistema_loja VALUES ('Camila Ribeiro','Sofá 3 lugares','Moveis',1,2500.00,2500.00,'2026-02-04');
+INSERT INTO sistema_loja VALUES ('Gabriel Santos','Mesa de Jantar','Moveis',1,1800.00,1800.00,'2026-02-06');
+INSERT INTO sistema_loja VALUES ('Amanda Oliveira','Guarda-Roupa','Moveis',1,2200.00,2200.00,'2026-02-08');
+INSERT INTO sistema_loja VALUES ('Felipe Carvalho','Ventilador','Eletrodomestico',2,180.00,360.00,'2026-02-10');
+INSERT INTO sistema_loja VALUES ('Larissa Mendes','Liquidificador','Eletrodomestico',1,150.00,150.00,'2026-02-12');
+INSERT INTO sistema_loja VALUES ('Rafael Lima','Monitor LG','Eletronico',1,1100.00,1100.00,'2026-02-14');
+INSERT INTO sistema_loja VALUES ('Beatriz Fernandes','Impressora HP','Eletronico',1,900.00,900.00,'2026-02-16');
+INSERT INTO sistema_loja VALUES ('Eduardo Nunes','Tênis Nike','Vestuário',1,400.00,400.00,'2026-02-18');
+INSERT INTO sistema_loja VALUES ('Vanessa Moraes','Jaqueta','Vestuário',1,350.00,350.00,'2026-02-20');
+
+INSERT INTO sistema_loja VALUES ('Paulo Henrique','Micro-ondas','Eletrodomestico',1,700.00,700.00,'2026-03-01');
+INSERT INTO sistema_loja VALUES ('Isabela Castro','Tablet Samsung','Eletronico',1,1500.00,1500.00,'2026-03-03');
+INSERT INTO sistema_loja VALUES ('Daniel Rocha','Cadeira Gamer','Moveis',1,1300.00,1300.00,'2026-03-05');
+INSERT INTO sistema_loja VALUES ('Carla Dias','Relógio Smartwatch','Eletronico',1,800.00,800.00,'2026-03-07');
+INSERT INTO sistema_loja VALUES ('Marcelo Araujo','Bicicleta','Esporte',1,1200.00,1200.00,'2026-03-09');
+INSERT INTO sistema_loja VALUES ('Natália Lima','Esteira Elétrica','Esporte',1,3500.00,3500.00,'2026-03-11');
+INSERT INTO sistema_loja VALUES ('André Luiz','Bola de Futebol','Esporte',3,90.00,270.00,'2026-03-13');
+INSERT INTO sistema_loja VALUES ('Sabrina Melo','Panela Elétrica','Eletrodomestico',1,500.00,500.00,'2026-03-15');
+INSERT INTO sistema_loja VALUES ('Leonardo Silva','HD Externo','Eletronico',1,450.00,450.00,'2026-03-17');
+INSERT INTO sistema_loja VALUES ('Tatiane Souza','Cafeteira','Eletrodomestico',1,380.00,380.00,'2026-03-19');
+
+INSERT INTO sistema_loja VALUES ('Igor Ramos','Notebook Lenovo','Eletronico',1,4200.00,4200.00,'2026-03-21');
+INSERT INTO sistema_loja VALUES ('Aline Freitas','Secador de Cabelo','Eletrodomestico',1,250.00,250.00,'2026-03-23');
+INSERT INTO sistema_loja VALUES ('Vitor Hugo','Controle Xbox','Eletronico',2,350.00,700.00,'2026-03-25');
+INSERT INTO sistema_loja VALUES ('Débora Martins','Camisa Social','Vestuário',2,120.00,240.00,'2026-03-27');
+INSERT INTO sistema_loja VALUES ('Henrique Lopes','Ar Condicionado','Eletrodomestico',1,3200.00,3200.00,'2026-03-29');
+INSERT INTO sistema_loja VALUES ('Bianca Alves','Cooktop','Eletrodomestico',1,850.00,850.00,'2026-04-02');
+INSERT INTO sistema_loja VALUES ('Gustavo Pinto','Playstation 5','Eletronico',1,4500.00,4500.00,'2026-04-04');
+INSERT INTO sistema_loja VALUES ('Renata Gomes','Xbox Series S','Eletronico',1,3000.00,3000.00,'2026-04-06');
+INSERT INTO sistema_loja VALUES ('Claudio Pereira','Sanduicheira','Eletrodomestico',2,140.00,280.00,'2026-04-08');
+INSERT INTO sistema_loja VALUES ('Elisa Barros','Vestido','Vestuário',1,220.00,220.00,'2026-04-10');
+
+INSERT INTO sistema_loja VALUES ('Samuel Dias','Guarda-Chuva','Acessorio',3,50.00,150.00,'2026-04-12');
+INSERT INTO sistema_loja VALUES ('Lorena Campos','Mochila','Acessorio',2,180.00,360.00,'2026-04-14');
+INSERT INTO sistema_loja VALUES ('Roberto Lima','Webcam','Eletronico',1,300.00,300.00,'2026-04-16');
+INSERT INTO sistema_loja VALUES ('Kelly Andrade','Espelho Decorativo','Moveis',1,400.00,400.00,'2026-04-18');
+INSERT INTO sistema_loja VALUES ('Fábio Souza','Barbeador Elétrico','Eletronico',1,600.00,600.00,'2026-04-20');
+INSERT INTO sistema_loja VALUES ('Mayara Silva','Tênis Adidas','Vestuário',1,450.00,450.00,'2026-04-22');
+INSERT INTO sistema_loja VALUES ('Caio Mendes','Patins','Esporte',1,500.00,500.00,'2026-04-24');
+INSERT INTO sistema_loja VALUES ('Letícia Rocha','Chaleira Elétrica','Eletrodomestico',1,200.00,200.00,'2026-04-26');
+INSERT INTO sistema_loja VALUES ('Murilo Costa','Headset Gamer','Eletronico',1,650.00,650.00,'2026-04-28');
+INSERT INTO sistema_loja VALUES ('Priscila Nunes','Poltrona','Moveis',1,1100.00,1100.00,'2026-05-02');
+
+INSERT INTO sistema_loja VALUES ('Jean Carlos','Rack TV','Moveis',1,900.00,900.00,'2026-05-04');
+INSERT INTO sistema_loja VALUES ('Alessandra Lima','Escova Secadora','Eletrodomestico',1,300.00,300.00,'2026-05-06');
+INSERT INTO sistema_loja VALUES ('Rodrigo Melo','Kindle','Eletronico',1,550.00,550.00,'2026-05-08');
+INSERT INTO sistema_loja VALUES ('Camila Duarte','Shorts','Vestuário',3,90.00,270.00,'2026-05-10');
+INSERT INTO sistema_loja VALUES ('Brenda Rocha','Blusa Feminina','Vestuário',2,100.00,200.00,'2026-05-12');
+INSERT INTO sistema_loja VALUES ('Alexandre Dias','Batedeira','Eletrodomestico',1,450.00,450.00,'2026-05-14');
+INSERT INTO sistema_loja VALUES ('Julio Cesar','Mouse Sem Fio','Eletronico',2,150.00,300.00,'2026-05-16');
+INSERT INTO sistema_loja VALUES ('Cristiane Lopes','Cama Box','Moveis',1,2000.00,2000.00,'2026-05-18');
+INSERT INTO sistema_loja VALUES ('Fernando Gomes','Capacete','Esporte',1,350.00,350.00,'2026-05-20');
+INSERT INTO sistema_loja VALUES ('Monique Alves','Bolsa Feminina','Acessorio',1,500.00,500.00,'2026-05-22');
