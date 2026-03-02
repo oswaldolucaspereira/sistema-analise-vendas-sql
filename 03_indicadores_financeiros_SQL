@@ -1,0 +1,188 @@
+🔹 1. Faturamento Total
+SELECT SUM(valor_total) AS faturamento_total
+FROM sistema_loja;
+RESULTADO: 173350.00
+
+🔹 2. Total de Vendas
+SELECT COUNT(id_venda) AS total_vendas
+FROM sistema_loja;
+RESULTADO: 73
+
+🔹 3. Ticket Médio
+SELECT SUM(valor_total) / COUNT(id_venda) AS ticket_medio
+FROM sistema_loja;
+RESULTADO: 2374.657534
+
+🔹 4. Produto Mais Vendido
+SELECT produto, SUM(quantidade) AS total_vendido
+FROM sistema_loja
+GROUP BY produto
+ORDER BY total_vendido DESC;
+RESULTADO: 
+Mouse Gamer	3
+Mouse Sem Fio	3
+Webcam HD	3
+Smartphone Realme	2
+Smartphone Samsung	2
+Teclado Mecânico	2
+Teclado Office	2
+Ventilador	2
+Ventilador Turbo	2
+Cafeteira	2
+Caixa Bluetooth	2
+Monitor 24	2
+Smartphone Xiaomi	2
+Smartwatch	2
+Caixa de Som Sony	2
+HD 2TB	2
+HD Externo 1TB	2
+Headset Bluetooth	2
+Headset Gamer	2
+Liquidificador	2
+Notebook Lenovo	2
+Notebook Lenovo i5	1
+Notebook Positivo	1
+Notebook Samsung	1
+Notebook Vaio	1
+Playstation 4	1
+Playstation 5	1
+Playstation 5 Slim	1
+Roteador Mesh	1
+Roteador WiFi 6	1
+Smart TV 43	1
+Smart TV 65	1
+Smart TV LG 50	1
+Smart TV Philco	1
+Smart TV Samsung 55	1
+Smart TV TCL	1
+Smartphone iPhone 14	1
+Smartphone iPhone 15	1
+Smartphone Motorola	1
+Microfone Condensador	1
+Microfone USB	1
+Micro-ondas	1
+Impressora Epson	1
+Impressora HP	1
+Impressora Laser	1
+Drone DJI	1
+Fogão 4 bocas	1
+Fogão 5 bocas	1
+Geladeira Brastemp	1
+Geladeira Electrolux	1
+Air Fryer	1
+Air Fryer Mondial	1
+Cadeira Escritório	1
+Cadeira Gamer	1
+Smartwatch Xiaomi	1
+SSD 480GB	1
+Tablet Lenovo	1
+Tablet Samsung	1
+Tablet Samsung S9	1
+Monitor 27	1
+Monitor Gamer	1
+Caixa de Som JBL	1
+Notebook Acer	1
+Notebook Asus	1
+Notebook Asus Ryzen	1
+Notebook Dell	1
+Notebook Dell i7	1
+Notebook Gamer	1
+Notebook Gamer RTX	1
+Notebook HP	1
+Smartphone Samsung A54	1
+Xbox Series S	1
+Xbox Series X	1
+
+🔹 5. Cliente que Mais Comprou
+SELECT nome_cliente, SUM(valor_total) AS total_gasto
+FROM sistema_loja
+GROUP BY nome_cliente
+ORDER BY total_gasto DESC;
+RESULTADO: 
+Julia Alves	8200.00
+Leonardo Costa	7500.00
+Carolina Lima	7200.00
+Lucas Pereira	6400.00
+Pedro Martins	6200.00
+Débora Lima	5200.00
+Felipe Rocha	5200.00
+Leticia Rocha	4500.00
+Mateus Lima	4200.00
+Fernanda Alves	4200.00
+Roberto Silva	4100.00
+Henrique Souza	4000.00
+Guilherme Costa	3900.00
+Renato Lima	3800.00
+Priscila Souza	3700.00
+Mariana Souza	3600.00
+Vanessa Martins	3600.00
+Carlos Silva	3500.00
+Marcelo Silva	3400.00
+Lívia Costa	3400.00
+Rodrigo Alves	3400.00
+Leandro Souza	3300.00
+Julio Mendes	3200.00
+Alice Martins	3100.00
+Igor Martins	3000.00
+Helena Lima	2800.00
+Fernando Rocha	2800.00
+Bruna Costa	2800.00
+João Lima	2700.00
+Gustavo Silva	2500.00
+Isabela Lima	2400.00
+Renan Alves	2300.00
+Amanda Ferreira	2200.00
+Patricia Gomes	2100.00
+Victor Lima	2100.00
+Ana Clara	1900.00
+Samuel Rocha	1800.00
+Larissa Costa	1800.00
+Marcelo Rocha	1800.00
+Eduarda Rocha	1700.00
+Murilo Souza	1600.00
+Natasha Costa	1560.00
+Bruno Martins	1500.00
+Carla Rocha	1500.00
+Camila Souza	1300.00
+Ramon Silva	1200.00
+Ricardo Souza	1200.00
+Wesley Costa	1100.00
+Tatiane Lima	1000.00
+Felipe Costa	950.00
+Camila Ferreira	900.00
+Juliana Rocha	900.00
+Thiago Mendes	850.00
+Talita Lima	850.00
+Daniela Pereira	850.00
+Claudia Alves	840.00
+Diego Santos	760.00
+Sabrina Mendes	750.00
+Rafael Costa	750.00
+Larissa Mendes	700.00
+André Pereira	660.00
+Gabriela Martins	650.00
+Paula Fernandes	640.00
+Laura Souza	600.00
+Aline Souza	600.00
+Bruno Rocha	560.00
+Kelly Rocha	550.00
+Bianca Alves	540.00
+Natália Costa	500.00
+Beatriz Fernandes	480.00
+Thiago Costa	360.00
+Eduardo Alves	350.00
+Caio Rocha	300.00
+
+
+🔹 6. Faturamento por Mês
+SELECT FORMAT(data_venda, 'yyyy-MM') AS mes,
+       SUM(valor_total) AS faturamento
+FROM sistema_loja
+GROUP BY FORMAT(data_venda, 'yyyy-MM')
+ORDER BY mes;
+RESULTADO: 
+2026-01	64060.00
+2026-02	68370.00
+2026-03	40920.00
+
+
